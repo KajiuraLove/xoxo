@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The XOXO Play</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="assets/img/xoxo.png">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="game-title">
+		<h1>The <strong>'XOXO' </strong>Play</h1>
+	</div>
+	<br><br>
+	<div class="game-container">
+
+		<div class="popup-about" id="popup-about">
+
+			<img src="assets/img/xoxo.png" alt="">
+
+			<p style="width: 250px; text-align: left; line-height: 22px; letter-spacing: 1px;">
+				XOXO is a famous tic-tac-toe game. Re-creating Your Childhood Memories.<br>
+				First Player starts as 
+				<b>Player X</b> and Second as <b>Player O</b></p>
+
+			<button onclick="closePopupAbout()">Let's Play</button>
+		
+		</div>
+
+		<span class="result">
+			<p id="result">Click START to begin</p>
+		</span>
+		
+		<span>
+			<input type="text" id="btn1" onclick=
+			"disableBtn1(); gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn2" onclick=
+			"disableBtn2(); gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn3" onclick=
+			"disableBtn3(); gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn4" onclick=
+			"disableBtn4(); gameLogic();" readonly disabled>
+		</span>
+			
+		<span>
+			<input type="text" id="btn5" onclick=
+			"disableBtn5(); gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn6" onclick=
+			"disableBtn6(); gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn7" onclick=
+			"disableBtn7(); gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn8" onclick=
+			"disableBtn8();gameLogic();" readonly disabled>
+		</span>
+
+		<span>
+			<input type="text" id="btn9" onclick=
+			"disableBtn9();gameLogic();" readonly disabled>
+		</span>
+
+		<span class="start-reset">
+			<button onclick="startGame()" id="startGameBtn">START</button>
+			<button onclick="resetGame()">RESET</button>
+		</span>
+
+		<div class="popup-result" id="popup-result">
+
+			<img src="assets/img/rate-star.gif" alt="">
+
+			<p id="resultpop"></p>
+
+			<button onclick="closePopup()">Play Again</button>
+		
+		</div>
+	</div>	
+
+	<div class="credits">
+		<p>Created By Rohit Kumar</p>
+	</div>
+	
+	
+</body>
+</html>

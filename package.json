@@ -1,0 +1,13 @@
+{
+  "name": "galback-xoxo",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KajiuraLove/SPA.git"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "galspa": "^0.0.1" 
+  }
+}
