@@ -7,4 +7,4 @@ Re-create your childhood memories
 Languages used:
 a. HTML5 b. CSS3 c. JavaScript
 
-Created By Rohit Kumar
+Created Via https://github.com/KajiuraLove/xoxo/
